@@ -29,8 +29,13 @@ From the Suspension_Coil.csv data file, a statistics summary table was created f
 When considering all lots (Table 1a), the variance of the suspension coils is 62 lb/in^2 which meets the design specifications for the MechaCar suspension coils that dictates a variance not exceeding 100 lb/in^2. Individually,  l2 1 and lot 2 meets the design specification while lot 3 does not.
 
 
-# T-Tests on Suspension Coils
-## p1
-![image4](/Results/D3.1.png)
-## p2
-![image5](/Results/D3.2.png)
+## T-Tests on Suspension Coils
+### All Manufacturing Lots
+![image4](/Results/D3.1.png)  
+According to the results of the t-test for all lots, the null hypothesis can be rejected. Therefore, the mean PSI of all lots is statistically different from the population's.
+
+### Individual Manufacturing Lots
+![image5](/Results/D3.2.png)  
+When looking at the individual lots, lot 3 has a p-value of 0.04 which is smaller than the 0.05 significance level showing that 1 and Lot 2 are statistically similar to the population where 3 is statistically different.
+
+## Study Design: MechaCar vs Competition
